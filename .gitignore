@@ -1,0 +1,10 @@
+# Secrets
+.env
+
+# OS / IDE
+.DS_Store
+.idea/
+
+# Unity workshop projects live in their own repos
+coin-rush-workshop/
+gem-hunter-workshop/
