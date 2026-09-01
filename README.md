@@ -1,42 +1,41 @@
 # Panteon Workshop Materials
 
-Materials for the **AI-Assisted Game Development** workshop series prepared for Panteon Games by Codeo. All materials are available in **Turkish** (originals) and **English** (in the `en/` subfolders).
+Materials for the **AI-Assisted Game Development** workshop prepared for Panteon Games by Codeo. All materials are available in **Turkish** (originals) and **English** (in the `en/` subfolders).
 
-## Workshop 1 — AI-Assisted Game Development (one day)
+## The single-day program (current)
 
-A single-day program covering all eight modules of the module catalog, weighted toward Module 5 (Unity CLI and Pipeline), Module 6 (2D Art Production) and Module 7 (3D Model Production). Joint sessions in the morning; parallel engineering and art tracks in the afternoon.
+One intensive day for a team that already uses Claude Code daily — no tool introductions, just practice. The arc: **Unity CLI from scratch in the morning** (empty scene → playable mini game, hands-on in Coin Rush), then **a living codebase in the afternoon** (Unity's official match-3 sample, Gem Hunter Match, ~4,800 lines). One trainer; the engineering and art tracks run back to back, and anyone may sit in on the other track.
 
-| Material | Turkish | English |
-|---|---|---|
-| Agenda | `panteon_atolye_ajandasi_tr.pdf` | `en/panteon_workshop_agenda.pdf` |
-| Track A lab guide (Coin Rush, Unity CLI) | `atolye_icerik/lab_kilavuzu_iz_a_unity_cli.pdf` | `atolye_icerik/en/lab_guide_track_a_unity_cli.pdf` |
-| Track B lab guide (2D/3D pipeline) | `atolye_icerik/lab_kilavuzu_iz_b_2d_3d.pdf` | `atolye_icerik/en/lab_guide_track_b_2d_3d.pdf` |
-| Presentations (6 decks) | `atolye_icerik/sunumlar/` | `atolye_icerik/sunumlar/en/` |
-
-Decks: opening & foundations · quick tour (Claude Code / JetBrains / Unity AI) · Unity CLI joint session · Track A lab · Track B lab · closing.
-
-## Workshop 2 — AI in a Real Codebase (advanced, one day)
-
-The follow-up workshop, run ~90 days after the first: working with an agent inside a living codebase (Unity's official match-3 sample, Gem Hunter Match). Engineering extends the game and hunts bugs; art reskins it in the studio style.
+| Time | Session |
+|---|---|
+| 09:30 – 10:00 | Opening: foundations, art approval process, baseline metrics + meeting Gem Hunter |
+| 10:00 – 11:00 | Unity CLI from scratch — hands-on (Coin Rush) |
+| 11:15 – 12:30 | The agent in a foreign codebase + live demo: BUG-312 |
+| 13:30 – 15:00 | Track A: Gem Hunter engineering lab (compressed) — Engineering + DevOps |
+| 15:15 – 16:45 | Track B: Reskinning Gem Hunter — Art + Tech Art |
+| 16:45 – 17:30 | Closing: the combined game, the four traps, the 90-day plan |
 
 | Material | Turkish | English |
 |---|---|---|
-| Agenda | `panteon_ileri_atolye_ajandasi_tr.pdf` | `en/panteon_advanced_workshop_agenda.pdf` |
-| Track A lab guide (Gem Hunter) | `atolye2_icerik/lab_kilavuzu_iz_a_gem_hunter.pdf` | `atolye2_icerik/en/lab_guide_track_a_gem_hunter.pdf` |
-| Track B lab guide (reskin) | `atolye2_icerik/lab_kilavuzu_iz_b_reskin.pdf` | `atolye2_icerik/en/lab_guide_track_b_reskin.pdf` |
-| Presentations (5 decks) | `atolye2_icerik/sunumlar/` | `atolye2_icerik/sunumlar/en/` |
+| Agenda | `tek_gun/panteon_tek_gun_ajandasi_tr.pdf` | `tek_gun/en/panteon_single_day_agenda.pdf` |
+| Track A lab guide (Gem Hunter) | `tek_gun/lab_kilavuzu_iz_a_gem_hunter.pdf` | `tek_gun/en/lab_guide_track_a_gem_hunter.pdf` |
+| Track B lab guide (reskin) | `tek_gun/lab_kilavuzu_iz_b_reskin.pdf` | `tek_gun/en/lab_guide_track_b_reskin.pdf` |
+| Presentations (6 decks) | `tek_gun/sunumlar/` | `tek_gun/sunumlar/en/` |
 
-Decks: opening & 90-day review · the agent in a foreign codebase + live demo · Track A lab · Track B lab · closing.
+Decks: opening · Unity CLI from scratch · the agent in a foreign codebase + demo · Track A lab · Track B lab · closing.
 
 ## Companion project repositories
 
-The hands-on labs run on two Unity projects, kept in their own (private) repositories:
+- [coin-rush-workshop](https://github.com/thickiran/coin-rush-workshop) — the morning's from-scratch project: a mini mobile game with 9 CLI exercises and checkpoint scenes.
+- [gem-hunter-workshop](https://github.com/thickiran/gem-hunter-workshop) — the afternoon's project: Gem Hunter Match with git checkpoint branches (`ex01-start` … `complete`) and `catchup.sh` sync tooling.
 
-- [coin-rush-workshop](https://github.com/thickiran/coin-rush-workshop) — Workshop 1, Track A: a mini mobile game built end to end in 9 exercises with Claude Code and Unity CLI.
-- [gem-hunter-workshop](https://github.com/thickiran/gem-hunter-workshop) — Workshop 2: Gem Hunter Match with git checkpoint branches (`ex01-start` … `complete`) and `catchup.sh` sync tooling.
+Exercise-level instructions inside both repos (`README`/`Ex0N_*.md`) are in English.
+
+## Archive
+
+`arsiv/` holds the original two-workshop structure this program was consolidated from — a foundations day (Coin Rush, all eight modules) and a separate advanced day (Gem Hunter) run ~90 days apart. Useful if the two-day sequence is ever needed for a less AI-experienced audience.
 
 ## Notes
 
-- English presentation decks are direct in-place translations of the Turkish decks — identical layout and design, slide for slide.
-- English PDFs are rebuilt to the same design as the Turkish originals.
-- The exercise-level instructions inside the project repositories (`README`/`Ex0N_*.md` files) are written in English in both repos.
+- English decks are direct in-place translations of the Turkish decks — identical layout, slide for slide.
+- English PDFs are rebuilt to the same design as the Turkish ones.
