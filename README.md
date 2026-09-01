@@ -1,6 +1,6 @@
 # Panteon Workshop Materials
 
-Materials for the **AI-Assisted Game Development** workshop prepared for Panteon Games by Codeo. All materials are available in **Turkish** (originals) and **English** (in the `en/` subfolders).
+Materials for the **AI-Assisted Game Development** workshop prepared for Panteon Games by Codeo.
 
 ## The single-day program (current)
 
@@ -15,18 +15,16 @@ One intensive day for a team that already uses Claude Code daily — no tool int
 | 15:15 – 16:45 | Track B: Reskinning Gem Hunter — Art + Tech Art |
 | 16:45 – 17:30 | Closing: the combined game, the four traps, the 90-day plan |
 
-| Material | Turkish | English |
-|---|---|---|
-| Agenda | `tek_gun/panteon_tek_gun_ajandasi_tr.pdf` | `tek_gun/en/panteon_single_day_agenda.pdf` |
-| Track A lab guide (Gem Hunter) | `tek_gun/lab_kilavuzu_iz_a_gem_hunter.pdf` | `tek_gun/en/lab_guide_track_a_gem_hunter.pdf` |
-| Track B lab guide (reskin) | `tek_gun/lab_kilavuzu_iz_b_reskin.pdf` | `tek_gun/en/lab_guide_track_b_reskin.pdf` |
-| Presentations (6 decks) | `tek_gun/sunumlar/` | `tek_gun/sunumlar/en/` |
+### Materials
 
-Decks: opening · Unity CLI from scratch · the agent in a foreign codebase + demo · Track A lab · Track B lab · closing.
+- `single_day/panteon_single_day_agenda.pdf` — the agenda
+- `single_day/lab_guide_track_a_gem_hunter.pdf` — Track A lab guide (Gem Hunter)
+- `single_day/lab_guide_track_b_reskin.pdf` — Track B lab guide (reskin)
+- `single_day/slides/` — 6 decks: opening · Unity CLI from scratch · the agent in a foreign codebase + demo · Track A lab · Track B lab · closing
 
 ## Explainer video
 
-A 1-minute overview of the workshop: `video/panteon_atolye_tanitim_tr.mp4` (Turkish) · `video/panteon_workshop_explainer_en.mp4` (English).
+A 1-minute overview of the workshop: `video/panteon_workshop_explainer_en.mp4` (a Turkish cut, `video/panteon_atolye_tanitim_tr.mp4`, is kept from before the project went English-only).
 
 ## Companion project repositories
 
@@ -37,9 +35,4 @@ Exercise-level instructions inside both repos (`README`/`Ex0N_*.md`) are in Engl
 
 ## Archive
 
-`arsiv/` holds the original two-workshop structure this program was consolidated from — a foundations day (Coin Rush, all eight modules) and a separate advanced day (Gem Hunter) run ~90 days apart. Useful if the two-day sequence is ever needed for a less AI-experienced audience.
-
-## Notes
-
-- English decks are direct in-place translations of the Turkish decks — identical layout, slide for slide.
-- English PDFs are rebuilt to the same design as the Turkish ones.
+`arsiv/` holds the original two-workshop structure this program was consolidated from — a foundations day (Coin Rush, all eight modules) and a separate advanced day (Gem Hunter) run ~90 days apart, in Turkish and English. Useful if the two-day sequence is ever needed for a less AI-experienced audience.
