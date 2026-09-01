@@ -24,6 +24,10 @@ One intensive day for a team that already uses Claude Code daily — no tool int
 
 Decks: opening · Unity CLI from scratch · the agent in a foreign codebase + demo · Track A lab · Track B lab · closing.
 
+## Explainer video
+
+A 1-minute overview of the workshop: `video/panteon_atolye_tanitim_tr.mp4` (Turkish) · `video/panteon_workshop_explainer_en.mp4` (English).
+
 ## Companion project repositories
 
 - [coin-rush-workshop](https://github.com/thickiran/coin-rush-workshop) — the morning's from-scratch project: a mini mobile game with 9 CLI exercises and checkpoint scenes.
