@@ -18,6 +18,7 @@ One intensive day for a team that already uses Claude Code daily — no tool int
 ### Materials
 
 - `single_day/panteon_single_day_agenda.pdf` — the agenda
+- `single_day/participant_setup.pdf` — the pre-workshop handout for participants: installs, clone/open both projects, verify the CLI connection, accounts by track, self-check
 - `single_day/instructor_guide.pdf` — the trainer's runbook: prompts, commands and recovery paths for every session
 - `single_day/lab_guide_track_a_gem_hunter.pdf` — Track A lab guide (Gem Hunter)
 - `single_day/lab_guide_track_b_reskin.pdf` — Track B lab guide (reskin)
